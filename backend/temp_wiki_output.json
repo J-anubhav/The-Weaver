@@ -1,0 +1,302 @@
+[
+    {
+        "id": "astrophysics",
+        "title": "Astrophysics",
+        "summary": "Astrophysics is a science that employs the methods and principles of physics and chemistry in the study of astronomical objects and phenomena. As one of  the founders of the discipline, James Keeler, said, astrophysics \"seeks to ascertain the nature of the heavenly bodies, rather than their positions or motions in space—what they are, rather than where they are\", which is studied in celestial mechanics.\nAmong the subjects studied are the Sun (solar physics), other stars, galaxies, extrasolar pla...",
+        "url": "https://en.wikipedia.org/wiki/Astrophysics"
+    },
+    {
+        "id": "solar_physics",
+        "title": "Solar physics",
+        "summary": "Solar physics is the branch of astrophysics that specializes in the study of the Sun. It intersects with many disciplines of pure physics and astrophysics.\nBecause the Sun is uniquely situated for close-range observing (other stars cannot be resolved with anything like the spatial or temporal resolution that the Sun can), there is a split between the related discipline of observational astrophysics (of distant stars) and observational solar physics.\nThe study of solar physics is also important a...",
+        "url": "https://en.wikipedia.org/wiki/Solar_physics"
+    },
+    {
+        "id": "2cdm_model_of_dark_matter",
+        "title": "2cDM model of dark matter",
+        "summary": "The 2cDM model, or two-component dark matter model, is a type of beyond-the-standard-model (BSM) theory that proposes the existence of two different types of dark matter components in cosmology. Unlike the standard cold dark matter (CDM) model, which assumes a single type of dark matter particle, a 2cDM model suggests that dark matter may consist of two distinct particle species, each with its own properties and interactions.\nMulti-component models like 2cDM may help solve known problems in cosm...",
+        "url": "https://en.wikipedia.org/wiki/2cDM_model_of_dark_matter"
+    },
+    {
+        "id": "abundance_of_the_chemical_elements",
+        "title": "Abundance of the chemical elements",
+        "summary": "The abundance of the chemical elements is a measure of the occurrences of the chemical elements relative to all other elements in a given environment. Abundance is measured in one of three ways: by mass fraction (in commercial contexts often called weight fraction), by mole fraction (fraction of atoms by numerical count, or sometimes fraction of molecules in gases), or by volume fraction. Volume fraction is a common abundance measure in mixed gases such as planetary atmospheres, and is similar i...",
+        "url": "https://en.wikipedia.org/wiki/Abundance_of_the_chemical_elements"
+    },
+    {
+        "id": "amorphous_carbonia",
+        "title": "Amorphous carbonia",
+        "summary": "Amorphous carbonia, also called a-carbonia or a-CO2, is an exotic amorphous solid form of carbon dioxide that is analogous to amorphous silica glass. It was first made in the laboratory in 2006 by subjecting dry ice to high pressures (40-48 gigapascal, or 400,000 to 480,000 atmospheres), in a diamond anvil cell. Amorphous carbonia is not stable at ordinary pressures—it quickly reverts to normal CO2.\nWhile normally carbon dioxide forms molecular crystals, where individual molecules are bound by V...",
+        "url": "https://en.wikipedia.org/wiki/Amorphous_carbonia"
+    },
+    {
+        "id": "angular_momentum_problem",
+        "title": "Angular momentum problem",
+        "summary": "The angular momentum problem is a problem in astrophysics identified by Leon Mestel in 1965.\nIt was found that the angular momentum of a protoplanetary disk is misappropriated when compared to models during stellar birth. The Sun and other stars are predicted by models to be rotating considerably faster than they actually are. The Sun, for example, only accounts for about 0.3 percent of the total angular momentum of the Solar System while about 60% is attributed to Jupiter.",
+        "url": "https://en.wikipedia.org/wiki/Angular_momentum_problem"
+    },
+    {
+        "id": "applegate_mechanism",
+        "title": "Applegate mechanism",
+        "summary": "The Applegate mechanism (Applegate's mechanism or Applegate effect) explains long term orbital period variations seen in certain eclipsing binaries. As a main sequence star goes through an activity cycle, the outer layers of the star are subject to a magnetic torque changing the distribution of angular momentum, resulting in a change in the star's oblateness. The orbit of the stars in the binary pair is gravitationally coupled to their shape changes, so that the period shows modulations (typical...",
+        "url": "https://en.wikipedia.org/wiki/Applegate_mechanism"
+    },
+    {
+        "id": "aqual",
+        "title": "AQUAL",
+        "summary": "AQUAL is a theory of gravity based on Modified Newtonian Dynamics (MOND), but using a Lagrangian. It was developed by Jacob Bekenstein and Mordehai Milgrom in their 1984 paper, \"Does the missing mass problem signal the breakdown of Newtonian gravity?\", as well as a 1986 paper by Milgrom. \"AQUAL\" stands for \"AQUAdratic Lagrangian\", stemming from the fact that, in contrast to Newtonian gravity, the proposed Lagrangian is non-quadratic in the potential gradient \n  \n    \n      \n        \n          |\n...",
+        "url": "https://en.wikipedia.org/wiki/AQUAL"
+    },
+    {
+        "id": "arianna_experiment",
+        "title": "ARIANNA Experiment",
+        "summary": "Antarctic Ross Ice-Shelf Antenna Neutrino Array (ARIANNA) is a proposed detector for ultra-high energy astrophysical neutrinos.  It will detect coherent radio Cherenkov emissions from the particle showers produced by neutrinos with energies above about 10^17 eV.  ARIANNA will be built on the Ross Ice Shelf just off the coast of Antarctica, where it will eventually cover about 900 km2 in surface area.  There, the ice-water interface below the shelf reflects radio waves, giving ARIANNA sensitivity...",
+        "url": "https://en.wikipedia.org/wiki/ARIANNA_Experiment"
+    },
+    {
+        "id": "asteroseismology",
+        "title": "Asteroseismology",
+        "summary": "Asteroseismology is the study of oscillations in stars. Stars have many resonant modes and frequencies, and the path of sound waves passing through a star depends on the local speed of sound, which in turn depends on local temperature and chemical composition. Because the resulting oscillation modes are sensitive to different parts of the star, they inform astronomers about the internal structure of the star, which is otherwise not directly possible from overall properties like brightness and su...",
+        "url": "https://en.wikipedia.org/wiki/Asteroseismology"
+    },
+    {
+        "id": "astrobiophysics",
+        "title": "Astrobiophysics",
+        "summary": "Astrobiophysics is a field of intersection between astrophysics and biophysics concerned with the influence of the astrophysical phenomena upon life on planet Earth or some other planet in general. It differs from astrobiology which is concerned with the search of extraterrestrial life. Examples of the topics covered by this branch of science include the effect of supernovae on life on Earth and the effects of cosmic rays on irradiation at sea level.",
+        "url": "https://en.wikipedia.org/wiki/Astrobiophysics"
+    },
+    {
+        "id": "astronomy_&_geophysics",
+        "title": "Astronomy & Geophysics",
+        "summary": "Astronomy & Geophysics (A&G) is a scientific periodical and trade magazine published on behalf of the Royal Astronomical Society (RAS) by Oxford University Press. It is distributed bimonthly to members of the RAS.\nA&G publishes content of interest to professional astronomers and geophysicists, including: news reports, interviews, topical reviews, historical investigations, obituaries, meeting reports and updates on the activities of the RAS. A&G does not publish original research papers or perfo...",
+        "url": "https://en.wikipedia.org/wiki/Astronomy_%26_Geophysics"
+    },
+    {
+        "id": "astrophysical_fluid_dynamics",
+        "title": "Astrophysical fluid dynamics",
+        "summary": "Astrophysical fluid dynamics is a branch of modern astronomy which deals with the motion of fluids in outer space using fluid mechanics, such as those that make up the Sun and other stars. The subject covers the fundamentals of fluid mechanics using various equations, such as continuity equations, the Navier–Stokes equations, and Euler's equations of collisional fluids. Some of the applications of astrophysical fluid dynamics include dynamics of stellar systems, accretion disks, astrophysical je...",
+        "url": "https://en.wikipedia.org/wiki/Astrophysical_fluid_dynamics"
+    },
+    {
+        "id": "astrostatistics",
+        "title": "Astrostatistics",
+        "summary": "Astrostatistics is a discipline which spans astrophysics, statistical analysis and data mining. It is used to process the vast amount of data produced by automated scanning of the cosmos, to characterize complex datasets, and to link astronomical data to astrophysical theory. Many branches of statistics are involved in astronomical analysis including nonparametrics, multivariate regression and multivariate classification, time series analysis, and especially Bayesian inference. The field is clos...",
+        "url": "https://en.wikipedia.org/wiki/Astrostatistics"
+    },
+    {
+        "id": "atomic_and_molecular_astrophysics",
+        "title": "Atomic and molecular astrophysics",
+        "summary": "Atomic astrophysics is concerned with performing atomic physics calculations that will be useful to astronomers and using atomic data to interpret astronomical observations. Atomic physics plays a key role in astrophysics as astronomers' only information about a particular object comes through the light that it emits, and this light arises through atomic transitions.\nMolecular astrophysics, developed into a rigorous field of investigation by theoretical astrochemist Alexander Dalgarno beginning ...",
+        "url": "https://en.wikipedia.org/wiki/Atomic_and_molecular_astrophysics"
+    },
+    {
+        "id": "axis_of_evil_(cosmology)",
+        "title": "Axis of evil (cosmology)",
+        "summary": "The \"axis of evil\" is a name given to a purported correlation between the plane of the Solar System and aspects of the cosmic microwave background (CMB). Such a correlation would give the plane of the Solar System and hence the location of Earth a greater significance than might be expected by chance, a result which has been claimed to be evidence of a departure from the Copernican principle.  However, a 2016 study compared isotropic and anisotropic cosmological models against WMAP and Planck da...",
+        "url": "https://en.wikipedia.org/wiki/Axis_of_evil_(cosmology)"
+    },
+    {
+        "id": "b2fh_paper",
+        "title": "B2FH paper",
+        "summary": "The B2FH paper was a landmark scientific paper on the origin of the chemical elements. The paper's title is Synthesis of the Elements in Stars, but it became known as B2FH from the initials of its authors: Margaret Burbidge, Geoffrey Burbidge, William A. Fowler, and Fred Hoyle. It was written from 1955 to 1956 at the University of Cambridge and Caltech and published in Reviews of Modern Physics in 1957.\nThe B2FH paper reviewed stellar nucleosynthesis theory and supported it with astronomical and...",
+        "url": "https://en.wikipedia.org/wiki/B2FH_paper"
+    },
+    {
+        "id": "bahcall–wolf_cusp",
+        "title": "Bahcall–Wolf cusp",
+        "summary": "Bahcall–Wolf cusp refers to a particular distribution of stars around a massive black hole at the center of a galaxy or globular cluster. If the nucleus containing the black hole is sufficiently old, exchange of orbital energy between stars drives their distribution toward a characteristic form, such that the density of stars, ρ, varies with distance from the black hole, r, as\n\n  \n    \n      \n        ρ\n        (\n        r\n        )\n        ∝\n        \n          r\n          \n            −\n        ...",
+        "url": "https://en.wikipedia.org/wiki/Bahcall%E2%80%93Wolf_cusp"
+    },
+    {
+        "id": "bi-scalar_tensor_vector_gravity",
+        "title": "Bi-scalar tensor vector gravity",
+        "summary": "Bi-scalar tensor vector gravity theory (BSTV) is an extension of the tensor–vector–scalar gravity theory (TeVeS). TeVeS is a relativistic generalization of Mordehai Milgrom's Modified Newtonian Dynamics MOND paradigm proposed by Jacob Bekenstein. BSTV was proposed by R.H.Sanders. BSTV makes TeVeS more flexible by making a non-dynamical scalar field in TeVeS into a dynamical one.\n\n\n== References ==",
+        "url": "https://en.wikipedia.org/wiki/Bi-scalar_tensor_vector_gravity"
+    },
+    {
+        "id": "bidirectional_scattering_distribution_function",
+        "title": "Bidirectional scattering distribution function",
+        "summary": "The definition of the BSDF (bidirectional scattering distribution function) is not well standardized. The term was probably introduced in 1980 by Bartell, Dereniak, and Wolfe. Most often it is used to name the general mathematical function which describes the way in which the light is scattered by a surface. However, in practice, this phenomenon is usually split into the reflected and transmitted components, which are then treated separately as BRDF (bidirectional reflectance distribution functi...",
+        "url": "https://en.wikipedia.org/wiki/Bidirectional_scattering_distribution_function"
+    },
+    {
+        "id": "black_hole",
+        "title": "Black hole",
+        "summary": "A black hole is an astronomical body so dense that its gravity prevents anything from escaping, even light. Albert Einstein's theory of general relativity predicts that a sufficiently compact mass will form a black hole. The boundary of no escape is called the event horizon. In general relativity, a black hole's event horizon seals an object's fate but produces no locally detectable change when crossed. In many ways, a black hole acts like an ideal black body, as it reflects no light. Quantum fi...",
+        "url": "https://en.wikipedia.org/wiki/Black_hole"
+    },
+    {
+        "id": "list_of_black_holes",
+        "title": "List of black holes",
+        "summary": "This list of black holes (and stars considered probable candidates) is organized by mass (including black holes of undetermined mass); some items in this list are galaxies or star clusters that are believed to be organized around a black hole. Messier and New General Catalogue designations are given where possible.",
+        "url": "https://en.wikipedia.org/wiki/List_of_black_holes"
+    },
+    {
+        "id": "lists_of_black_holes",
+        "title": "Lists of black holes",
+        "summary": "This is a list of lists of black holes:\n\nList of black holes\nList of fastest rotating black holes\nList of most massive black holes\nList of nearest known black holes\nList of quasars",
+        "url": "https://en.wikipedia.org/wiki/Lists_of_black_holes"
+    },
+    {
+        "id": "outline_of_black_holes",
+        "title": "Outline of black holes",
+        "summary": "The following outline is provided as an overview of and topical guide to black holes:\nBlack hole – mathematically defined region of spacetime exhibiting such a strong gravitational pull that no particle or electromagnetic radiation can escape from inside it. The theory of general relativity predicts that a sufficiently compact mass can deform spacetime to form a black hole. The boundary of the region from which no escape is possible is called the event horizon. Although crossing the event horizo...",
+        "url": "https://en.wikipedia.org/wiki/Outline_of_black_holes"
+    },
+    {
+        "id": "binary_black_hole",
+        "title": "Binary black hole",
+        "summary": "A binary black hole (BBH), or black hole binary, is an astronomical object consisting of two black holes in close orbit around each other. Like black holes themselves, binary black hole systems are classified as either stellar-mass—involving remnants of high-mass binary star systems or formed by dynamic processes and mutual capture—or supermassive, black hole systems believed to arise from galactic mergers.\nThe existence of stellar-mass binary black holes was directly confirmed by gravitational ...",
+        "url": "https://en.wikipedia.org/wiki/Binary_black_hole"
+    },
+    {
+        "id": "extremal_black_hole",
+        "title": "Extremal black hole",
+        "summary": "In theoretical physics, an extremal black hole is a black hole with the minimum possible mass that is compatible with its charge and angular momentum. Extremal black holes have zero temperature. Near-extremal black holes with mass slightly above the extremal value have a simple horizon structure that make them valuable tools for black hole research.\nThe concept of an extremal black hole is hypothetical, and none have thus far been observed in nature. However, they have proven useful as theoretic...",
+        "url": "https://en.wikipedia.org/wiki/Extremal_black_hole"
+    },
+    {
+        "id": "intermediate-mass_black_hole",
+        "title": "Intermediate-mass black hole",
+        "summary": "An intermediate-mass black hole (IMBH) is a class of black hole with mass in the range of one hundred to one hundred thousand (102–105) solar masses: significantly higher than stellar black holes but lower than the hundred thousand to more than one billion (105–109) solar mass supermassive black holes. Several IMBH candidate objects have been discovered in the Milky Way galaxy and others nearby, based on indirect gas cloud velocity and accretion disk spectra observations of various evidentiary s...",
+        "url": "https://en.wikipedia.org/wiki/Intermediate-mass_black_hole"
+    },
+    {
+        "id": "micro_black_hole",
+        "title": "Micro black hole",
+        "summary": "Micro black holes, also known as mini black holes and quantum mechanical black holes, are hypothetical tiny (<1 M☉) black holes, for which quantum mechanical effects play an important role. The concept that black holes may exist that are smaller than stellar mass was introduced in 1971 by Stephen Hawking.\nIt is possible that such black holes were created in the high-density environment of the early universe (or Big Bang), or possibly through subsequent phase transitions (referred to as primordia...",
+        "url": "https://en.wikipedia.org/wiki/Micro_black_hole"
+    },
+    {
+        "id": "stellar_black_hole",
+        "title": "Stellar black hole",
+        "summary": "A stellar black hole (or stellar-mass black hole) is a black hole formed by the gravitational collapse of a star. They have masses ranging from about 5 to several tens of solar masses. They are the remnants of supernova explosions, which may be observed as a type of gamma ray burst. These black holes are also referred to as collapsars.",
+        "url": "https://en.wikipedia.org/wiki/Stellar_black_hole"
+    },
+    {
+        "id": "supermassive_black_hole",
+        "title": "Supermassive black hole",
+        "summary": "A supermassive black hole (SMBH or sometimes SBH) is the largest type of black hole, with its mass being on the order of hundreds of thousands, or millions to billions, of times the mass of the Sun (M☉). Black holes are a class of astronomical objects that have undergone gravitational collapse, leaving behind spheroidal regions of space from which nothing can escape, including light. Observational evidence indicates that almost every large galaxy has a supermassive black hole at its center. For ...",
+        "url": "https://en.wikipedia.org/wiki/Supermassive_black_hole"
+    },
+    {
+        "id": "abell_2744-qso1",
+        "title": "Abell 2744-QSO1",
+        "summary": "Abell 2744-QSO1 (abbreviated as QSO1) is a 50-million-stellar-mass supermassive black hole (technically an active galactic nucleus) traveling through space almost by itself, located approximately 13 billion years ago in the epoch of re-ionisation behind the galaxy cluster Abell 2744. It is surrounded by a very small galaxy, with very tight upper limits on its stellar mass; the matter surrounding it comprises mostly hydrogen and helium, with very few of the heavier elements which are created by s...",
+        "url": "https://en.wikipedia.org/wiki/Abell_2744-QSO1"
+    },
+    {
+        "id": "accretion_disk",
+        "title": "Accretion disk",
+        "summary": "An accretion disk is a structure (often a circumstellar disk) formed by diffuse material in orbital motion around a massive central body. The central body is most frequently a star. Friction, uneven irradiance, magnetohydrodynamic effects, and other forces induce instabilities causing orbiting material in the disk to spiral inward toward the central body. Gravitational and frictional forces compress and raise the temperature of the material, causing the emission of electromagnetic radiation. The...",
+        "url": "https://en.wikipedia.org/wiki/Accretion_disk"
+    },
+    {
+        "id": "ads_black_brane",
+        "title": "AdS black brane",
+        "summary": "An anti de Sitter black brane is a solution of the Einstein equations in the presence of a negative cosmological constant which possesses a planar event horizon. This is distinct from an anti de Sitter black hole solution which has a spherical event horizon. The negative cosmological constant implies that the spacetime will asymptote to an anti de Sitter spacetime at spatial infinity.",
+        "url": "https://en.wikipedia.org/wiki/AdS_black_brane"
+    },
+    {
+        "id": "ads_black_hole",
+        "title": "AdS black hole",
+        "summary": "In theoretical physics, an anti-de Sitter (AdS) black hole is a black hole solution of general relativity or its extensions which represents an isolated massive object, but with a negative cosmological constant.  Such a solution asymptotically approaches anti-de Sitter space at spatial infinity, and is a generalization of the Kerr vacuum solution, which asymptotically approaches Minkowski spacetime at spatial infinity.\nIn 3+1 dimensions, the metric is given by\n\n  \n    \n      \n        d\n        \n...",
+        "url": "https://en.wikipedia.org/wiki/AdS_black_hole"
+    },
+    {
+        "id": "aless_073.1",
+        "title": "ALESS 073.1",
+        "summary": "ALESS 073.1 is an old spiral galaxy 12 billion light years away from Earth. The discovery was published in February 2021 in the journal Science. It has challenged the way astronomers understand galaxies and galaxy formation.",
+        "url": "https://en.wikipedia.org/wiki/ALESS_073.1"
+    },
+    {
+        "id": "ansky_(black_hole)",
+        "title": "Ansky (black hole)",
+        "summary": "Ansky is the nickname for a supermassive black hole located in the galaxy SDSS J133519.91+072807.4 (SDSS1335+0728), approximately 300 million light-years from Earth in the Virgo constellation. The black hole gained attention in 2019 when it transitioned from dormancy to an active state, producing extreme quasi-periodic eruptions (QPEs) of X-ray radiation. It represents the first observed case of a supermassive black hole awakening in real time.",
+        "url": "https://en.wikipedia.org/wiki/Ansky_(black_hole)"
+    },
+    {
+        "id": "apparent_horizon",
+        "title": "Apparent horizon",
+        "summary": "In general relativity, an apparent horizon is a surface that is the boundary between light rays that are directed outwards and moving outwards and those directed outward but moving inward.\nApparent horizons are not invariant properties of spacetime, and in particular, they are distinct from event horizons. Within an apparent horizon, light does not move outward; this is in contrast with the event horizon. In a dynamical spacetime, there can be outgoing light rays exterior to an apparent horizon ...",
+        "url": "https://en.wikipedia.org/wiki/Apparent_horizon"
+    },
+    {
+        "id": "asassn-19bt",
+        "title": "ASASSN-19bt",
+        "summary": "ASASSN-19bt was a tidal disruption event (TDE) known for being the first such event discovered. It was discovered by the All Sky Automated Survey for SuperNovae (ASAS-SN) project, with early-time, detailed observations by the TESS satellite. It was first detected on January 21, 2019, and reached peak brightness on March 4.\nThe black hole which caused the TDE has a mass of around 6 million suns and is in the 16th magnitude galaxy 2MASX J07001137-6602251 in the constellation Volans at a redshift o...",
+        "url": "https://en.wikipedia.org/wiki/ASASSN-19bt"
+    },
+    {
+        "id": "astrophysical_jet",
+        "title": "Astrophysical jet",
+        "summary": "An astrophysical jet is an astronomical phenomenon where ionised matter is expelled at high velocity from an astronomical object, in a pair of narrow streams aligned with the object's axis of rotation. When the matter in the beam approaches the speed of light, astrophysical jets become relativistic jets as they show effects from special relativity.\nAstrophysical jets are associated with many types of high-energy astronomical sources, such as black holes, neutron stars and pulsars. Their causes a...",
+        "url": "https://en.wikipedia.org/wiki/Astrophysical_jet"
+    },
+    {
+        "id": "at2018hyz",
+        "title": "AT2018hyz",
+        "summary": "AT2018hyz is a tidal disruption event (TDE) that was discovered in 2018 by the All Sky Automated Survey for SuperNovae (ASASS-SN).",
+        "url": "https://en.wikipedia.org/wiki/AT2018hyz"
+    },
+    {
+        "id": "galaxy",
+        "title": "Galaxy",
+        "summary": "A galaxy is a system of stars, stellar remnants, interstellar gas, dust, and dark matter bound together by gravity. The word is derived from the Greek galaxias (γαλαξίας), literally 'milky', a reference to the Milky Way galaxy that contains the Solar System. Galaxies, averaging an estimated 100 million stars, range in size from dwarfs with less than a thousand stars, to the largest galaxies known – supergiants with one hundred trillion stars, each orbiting its galaxy's centre of mass. Most of th...",
+        "url": "https://en.wikipedia.org/wiki/Galaxy"
+    },
+    {
+        "id": "outline_of_galaxies",
+        "title": "Outline of galaxies",
+        "summary": "The following outline is provided as an overview of and topical guide to galaxies:\nGalaxies –  gravitationally bound systems of stars, stellar remnants, interstellar gas, dust, and dark matter. The word galaxy is derived from the Greek galaxias (γαλαξίας), literally \"milky\", a reference to the Milky Way. Galaxies range in size from dwarfs with just a few billion (109) stars to giants with one hundred trillion (1014) stars, each orbiting its galaxy's center of mass. Galaxies are categorized accor...",
+        "url": "https://en.wikipedia.org/wiki/Outline_of_galaxies"
+    },
+    {
+        "id": "intergalactic_travel",
+        "title": "Intergalactic travel",
+        "summary": "Intergalactic travel is the hypothetical travel between galaxies. Because the Milky Way and its closest neighbors are separated by millions of light-years, any such venture would also require millions of years based on our current understanding of physics. Thus, intergalactic travel is impossible within the human lifetime. The technology required to travel between galaxies is far beyond humanity's present capabilities, and currently only the subject of speculation, hypothesis, and science fictio...",
+        "url": "https://en.wikipedia.org/wiki/Intergalactic_travel"
+    },
+    {
+        "id": "3mm-1",
+        "title": "3MM-1",
+        "summary": "3MM-1 (also known as COS-3mm-1) is a star-forming galaxy about 12.5 billion light-years away that is obscured by clouds of dust. It is located in the constellation of Sextans. It was first detected in spectroscopic data on rotational transitions of carbon monoxide obtained using the Atacama Large Millimeter Array from 23 to 24 December 2018, as detailed in an article that was published on 22 October 2019. The authors of this article described the discovery as \"serendipitous\", since the focus of ...",
+        "url": "https://en.wikipedia.org/wiki/3MM-1"
+    },
+    {
+        "id": "a1703_zd6",
+        "title": "A1703 zD6",
+        "summary": "A1703 zD6 is a strongly lensed Lyman-alpha emitter.  It is located behind a foreground galaxy cluster known as Abell 1703, hence its name. It has a spectroscopically determined redshift of over 7, corresponding to a light travel time of 12.9 billion years. It is located in the Canes Venatici constellation. It was discovered in 2012, by a group led by L. D. Bradley, published in The Astrophysical Journal.\nThe C IV emission line (with a wavelength of 1548 Å) was detected from this galaxy, signifyi...",
+        "url": "https://en.wikipedia.org/wiki/A1703_zD6"
+    },
+    {
+        "id": "a2744-jd",
+        "title": "A2744-JD",
+        "summary": "A2744-JD is an extremely distant galaxy, identified with the Hubble Space Telescope through gravitational lensing, observing the massive galaxy cluster Abell 2744, also known as Pandora's Cluster. Due to the high redshift (z = ~10), a triple red spot image was obtained of a galaxy observed at an epoch when the Universe was about 500 million years after the Big Bang (approximately 3% of its current age) and whose light took more than 13 billion years to reach Earth. The gravitational lensing effe...",
+        "url": "https://en.wikipedia.org/wiki/A2744-JD"
+    },
+    {
+        "id": "bdf-521",
+        "title": "BDF-521",
+        "summary": "BDF-521 is a distant galaxy with a redshift of z = 7.008, corresponding to a distance traveled by light to come down to Earth of 12.89 billion light years.",
+        "url": "https://en.wikipedia.org/wiki/BDF-521"
+    },
+    {
+        "id": "bdf-3299",
+        "title": "BDF-3299",
+        "summary": "BDF-3299 is a remote galaxy with a redshift of z = 7.109 corresponds to a distance traveled by light to come down to Earth of 12.9 billion light-years.",
+        "url": "https://en.wikipedia.org/wiki/BDF-3299"
+    },
+    {
+        "id": "binary_galaxy",
+        "title": "Binary galaxy",
+        "summary": "A binary galaxy is a system of two interacting galaxies where their distance is 5-10 times less than the distance of the nearest galaxies of comparable brightness and dimension. The orbital periods of theses galaxies are typically in the timescales of hundreds of millions of years. The Milky Way galaxy and the nearest galaxy, Andromeda Galaxy may be classed as a binary galaxy.\n\nBinary galaxies, if spaced out a large distance, can be stable. However close pairs of galaxies can cause disruptions t...",
+        "url": "https://en.wikipedia.org/wiki/Binary_galaxy"
+    },
+    {
+        "id": "blue_nugget",
+        "title": "Blue Nugget",
+        "summary": "Blue Nugget (also called BN) galaxies are a type of distant galaxy that only existed in the early universe. Blue nugget galaxies are small but high mass galaxies undergoing mass bursts of star formation, making many large, bright blue stars. As their stellar population evolves and ages, blue nugget galaxies transition into red nugget galaxies.\n\"Blue\" derives from their blue coloration and \"Nugget\" derives from their small size.\nExamples of Blue Nugget galaxies:\n\nKIDS J232940-340922\nKIDS J122456+...",
+        "url": "https://en.wikipedia.org/wiki/Blue_Nugget"
+    }
+]
