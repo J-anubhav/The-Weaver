@@ -1,0 +1,5 @@
+sentence-transformers 
+umap-learn 
+scikit-learn 
+wikipedia-api 
+GitPython 

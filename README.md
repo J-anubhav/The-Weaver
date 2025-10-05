@@ -1,1 +1,1 @@
-"# The-Weaver" 
+"# The Weaver - A Semantic Visualization Tool" 
