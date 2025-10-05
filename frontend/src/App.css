@@ -1,42 +1,38 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.info-panel {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 300px;
+  max-height: 90vh;
+  padding: 15px;
+  background-color: rgba(20, 20, 30, 0.85);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  color: #f0f0f0;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  
+  /* Animation ke liye */
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  overflow-y: auto;
+  font-family: sans-serif;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.info-panel.active {
+  opacity: 1;
+  transform: translateX(0);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info-panel h2 {
+  margin-top: 0;
+  font-size: 1.2em;
+  color: #61dafb; /* React blue */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.info-panel p {
+  font-size: 0.9em;
+  line-height: 1.5;
 }
