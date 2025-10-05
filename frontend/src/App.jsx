@@ -1,12 +1,27 @@
-import React, { useMemo, useState, useCallback } from 'react'
-import { Canvas } from '@react-three/fiber'
+import React, { useMemo, useState, useCallback, useRef, useEffect } from 'react'
+import { Canvas, useFrame } from '@react-three/fiber'
 import { OrbitControls, Line } from '@react-three/drei'
 import * as THREE from 'three'
+import lunr from 'lunr'
+
+// Apne saare components import karein
 import { useData } from './hooks/useData'
 import { InfoPanel } from './components/InfoPanel'
-import './App.css'; 
+import { SearchBar } from './components/SearchBar'
+import './App.css';
 
-// ConnectionLines component (No changes here)
+// Yeh helper component camera ki movement ko smooth banata hai
+function ControlsUpdater({ controlsRef }) {
+    useFrame(() => {
+        // Damping ko kaam karne ke liye controls ko har frame update karna zaroori hai
+        if (controlsRef.current) {
+            controlsRef.current.update();
+        }
+    });
+    return null;
+}
+
+// ConnectionLines aur PointGalaxy components mein koi change nahi hai
 function ConnectionLines({ processedData, selectedNodeId }) {
     if (!selectedNodeId) return null;
     const selectedNode = processedData.find(node => node.id === selectedNodeId);
@@ -28,23 +43,16 @@ function ConnectionLines({ processedData, selectedNodeId }) {
     );
 }
 
-// PointGalaxy component mein changes hain
 function PointGalaxy({ processedData, selected, setSelected }) {
-    // Hover state ke liye
     const [hovered, setHovered] = useState(null);
 
     const { positions, colors } = useMemo(() => {
         const finalPositions = processedData.flatMap(p => p.position);
-
         const finalColors = processedData.map((node, i) => {
-            if (node.id === selected) {
-                return [1, 1, 0]; // Yellow for selected
-            } else if (i === hovered) {
-                return [0.8, 0.8, 1]; // Light purple/blue for hovered
-            }
-            return [0.38, 0.85, 0.98]; // Default light blue
+            if (node.id === selected) return [1, 1, 0];
+            if (i === hovered) return [0.8, 0.8, 1];
+            return [0.38, 0.85, 0.98];
         }).flat();
-
         return { positions: finalPositions, colors: finalColors };
     }, [processedData, selected, hovered]);
 
@@ -71,63 +79,101 @@ function PointGalaxy({ processedData, selected, setSelected }) {
 
 
 function App() {
-  const rawData = useData('/space_data.json');
-  const [selectedNodeId, setSelectedNodeId] = useState(null);
+    const rawData = useData('/space_data.json');
+    const [selectedNodeId, setSelectedNodeId] = useState(null);
+    const [searchQuery, setSearchQuery] = useState('');
+    const [searchResults, setSearchResults] = useState([]);
+    const controlsRef = useRef();
 
-  const processedData = useMemo(() => {
-    if (!rawData) return null;
+    const { processedData, searchIndex } = useMemo(() => {
+        if (!rawData) return { processedData: null, searchIndex: null };
+        const points = rawData.map(p => new THREE.Vector3(...p.position));
+        const boundingBox = new THREE.Box3().setFromPoints(points);
+        const center = new THREE.Vector3();
+        boundingBox.getCenter(center);
+        const size = new THREE.Vector3();
+        boundingBox.getSize(size);
+        const maxDim = Math.max(size.x, size.y, size.z);
+        const scaleFactor = 10 / maxDim;
+        const processed = rawData.map(node => {
+            const originalPos = new THREE.Vector3(...node.position);
+            const finalPos = originalPos.sub(center).multiplyScalar(scaleFactor);
+            return { ...node, position: [finalPos.x, finalPos.y, finalPos.z] };
+        });
+        const index = lunr(function () {
+            this.ref('id'); this.field('label'); this.field('summary');
+            processed.forEach(doc => { this.add(doc); });
+        });
+        return { processedData: processed, searchIndex: index };
+    }, [rawData]);
 
-    const points = rawData.map(p => new THREE.Vector3(...p.position));
-    const boundingBox = new THREE.Box3().setFromPoints(points);
-    const center = new THREE.Vector3();
-    boundingBox.getCenter(center);
-    const size = new THREE.Vector3();
-    boundingBox.getSize(size);
-    const maxDim = Math.max(size.x, size.y, size.z);
-    const scaleFactor = 10 / maxDim;
+    useEffect(() => {
+        if (searchQuery && searchIndex && processedData) {
+            const results = searchIndex.search(`*${searchQuery}*`);
+            const resultNodes = results.map(result => processedData.find(node => node.id === result.ref)).filter(Boolean);
+            setSearchResults(resultNodes);
+        } else {
+            setSearchResults([]);
+        }
+    }, [searchQuery, searchIndex, processedData]);
 
-    // --- YEH HAI FIX ---
-    // Humne neeche waali line se '(node, index)' ko badal kar sirf '(node)' kar diya hai
-    // kyunki humein index ki zaroorat nahi hai.
-    return rawData.map((node) => { 
-      const originalPos = new THREE.Vector3(...node.position); // Hum position direct 'node' se le rahe hain
-      const finalPos = originalPos.sub(center).multiplyScalar(scaleFactor);
-      return {
-        ...node,
-        position: [finalPos.x, finalPos.y, finalPos.z]
-      };
-    });
-  }, [rawData]);
+    // --- YAHAN DEBUGGING LOGS ADD KIYE HAIN ---
+    const handleFlyTo = (nodeId) => {
+        console.log("1. handleFlyTo triggered with ID:", nodeId); // Check 1: Kya function call hua?
 
-  const selectedNodeData = useMemo(() => {
-    if (!selectedNodeId || !processedData) return null;
-    return processedData.find(node => node.id === selectedNodeId);
-  }, [selectedNodeId, processedData]);
+        const node = processedData.find(n => n.id === nodeId);
+        console.log("2. Found node:", node); // Check 2: Kya node data mila?
 
-  if (!processedData) {
-    return <div style={{ color: 'white', textAlign: 'center', paddingTop: '20px', fontSize: '2em' }}>Processing The Weaver's Data...</div>
-  }
+        console.log("3. Controls ref current value:", controlsRef.current); // Check 3: Kya camera controls ready hain?
 
-  return (
-    <>
-      <InfoPanel node={selectedNodeData} />
-      <Canvas
-        raycaster={{ params: { Points: { threshold: 0.1 } } }}
-        camera={{ position: [0, 0, 12], fov: 60 }}
-        onPointerMissed={() => setSelectedNodeId(null)}
-      >
-        <ambientLight intensity={0.5} />
-        <PointGalaxy processedData={processedData} selected={selectedNodeId} setSelected={setSelectedNodeId} />
-        <ConnectionLines processedData={processedData} selectedNodeId={selectedNodeId} />
-        <OrbitControls
-          enableZoom={true}
-          autoRotate={!selectedNodeId}
-          autoRotateSpeed={0.3}
-          zoomSpeed={0.8}
-        />
-      </Canvas>
-    </>
-  )
+        if (node && controlsRef.current) {
+            console.log("4. All conditions MET. Trying to move camera...");
+            const [x, y, z] = node.position;
+            controlsRef.current.target.set(x, y, z);
+            controlsRef.current.object.position.set(x, y, z + 5);
+            
+            setSelectedNodeId(nodeId);
+            setSearchQuery('');
+        } else {
+            console.error("5. Conditions NOT MET. Could not move camera.");
+        }
+    };
+
+    const selectedNodeData = useMemo(() => {
+        if (!selectedNodeId || !processedData) return null;
+        return processedData.find(node => node.id === selectedNodeId);
+    }, [selectedNodeId, processedData]);
+
+    if (!processedData) {
+        return <div style={{ color: 'white', textAlign: 'center', paddingTop: '20px', fontSize: '2em' }}>Processing The Weaver's Data...</div>
+    }
+
+    // Baaki ka return statement bilkul same hai
+    return (
+        <>
+            <SearchBar query={searchQuery} setQuery={setSearchQuery} results={searchResults} onResultClick={handleFlyTo} />
+            <InfoPanel node={selectedNodeData} />
+            <Canvas
+                raycaster={{ params: { Points: { threshold: 0.1 } } }}
+                camera={{ position: [0, 0, 12], fov: 60 }}
+                onPointerMissed={() => setSelectedNodeId(null)}
+            >
+                <ambientLight intensity={0.5} />
+                <PointGalaxy processedData={processedData} selected={selectedNodeId} setSelected={setSelectedNodeId} />
+                <ConnectionLines processedData={processedData} selectedNodeId={selectedNodeId} />
+                <OrbitControls
+                    ref={controlsRef}
+                    enableDamping={true}
+                    dampingFactor={0.05}
+                    enableZoom={true}
+                    autoRotate={!selectedNodeId}
+                    autoRotateSpeed={0.3}
+                    zoomSpeed={0.8}
+                />
+                <ControlsUpdater controlsRef={controlsRef} />
+            </Canvas>
+        </>
+    )
 }
 
 export default App
